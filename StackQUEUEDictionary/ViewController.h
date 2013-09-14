@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+}
+@property (weak, nonatomic) IBOutlet UITableView *Stack;
+@property (nonatomic, strong) NSMutableArray *arrayStack;
+
+@property (weak, nonatomic) IBOutlet UILabel *tamanoDelStack;
+- (IBAction)pushStack:(id)sender;
+- (IBAction)popStack:(id)sender;
+
 
 @end

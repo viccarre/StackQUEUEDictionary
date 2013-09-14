@@ -18,6 +18,7 @@
 		5BA908C117E4E4D100471F27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA908C017E4E4D100471F27 /* Default-568h@2x.png */; };
 		5BA908C417E4E4D100471F27 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA908C217E4E4D100471F27 /* MainStoryboard.storyboard */; };
 		5BA908C717E4E4D100471F27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA908C617E4E4D100471F27 /* ViewController.m */; };
+		5BA9090117E509B600471F27 /* queueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9090017E509B600471F27 /* queueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		5BA908C317E4E4D100471F27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5BA908C517E4E4D100471F27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5BA908C617E4E4D100471F27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BA908FF17E509B600471F27 /* queueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queueViewController.h; sourceTree = "<group>"; };
+		5BA9090017E509B600471F27 /* queueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = queueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				5BA908B917E4E4D100471F27 /* AppDelegate.h */,
 				5BA908BA17E4E4D100471F27 /* AppDelegate.m */,
 				5BA908C217E4E4D100471F27 /* MainStoryboard.storyboard */,
+				5BA908FF17E509B600471F27 /* queueViewController.h */,
+				5BA9090017E509B600471F27 /* queueViewController.m */,
 				5BA908C517E4E4D100471F27 /* ViewController.h */,
 				5BA908C617E4E4D100471F27 /* ViewController.m */,
 				5BA908B117E4E4D100471F27 /* Supporting Files */,
@@ -176,6 +181,7 @@
 				5BA908B717E4E4D100471F27 /* main.m in Sources */,
 				5BA908BB17E4E4D100471F27 /* AppDelegate.m in Sources */,
 				5BA908C717E4E4D100471F27 /* ViewController.m in Sources */,
+				5BA9090117E509B600471F27 /* queueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackQUEUEDictionary/StackQUEUEDictionary-Prefix.pch";
 				INFOPLIST_FILE = "StackQUEUEDictionary/StackQUEUEDictionary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackQUEUEDictionary/StackQUEUEDictionary-Prefix.pch";
 				INFOPLIST_FILE = "StackQUEUEDictionary/StackQUEUEDictionary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
